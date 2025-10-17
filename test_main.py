@@ -6,4 +6,4 @@ def test_late_fee():
 
     # Simple checks to verify polymorphism
     assert ebook.calculate_late_fee(2) == 1.0
-    assert printed.calculate_late_fee(2) == 4
+    assert printed.calculate_late_fee(2) == 44
