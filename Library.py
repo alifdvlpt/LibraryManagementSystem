@@ -45,7 +45,7 @@ class Payment(ABC):
 
 class CreditCardPayment(Payment):
     def pay(self, amount):
-        print(f"Paid ${amount} using your Credit Card.")
+        print(f"Paid ${amount} using you Credit Card.")
 
 
 class CashPayment(Payment):
